@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 0 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    display: block;
+    background-color: #fff;
+    top: 0%;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: rgb(49, 69, 132);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "WorkSans";
+    font-weight: bold;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 0%
+}
+
+.contact {
+    display: block;
+}
+
+.contact a {
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FD3748;
+    box-shadow: 10px 5px 30px #F1F1F1;
+}
+
+.contact span {
+    margin-left: 12px;
+}
+
+#header-section {
+    padding: 50px 0;
+}
+
+#header-section .inner-header {
+    padding: 50px 0;
+}
+
+.img-section img {
+    width: 480px;
+    height: 480px;
+}
+
+.inner-header {
+    margin-top: 50px;
+}
+
+.inner-header h2 {
+    color: rgb(49, 69, 132);
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.inner-header p {
+    color: #6e757a;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.inner-header button {
+    background: #ff3946;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inner-header a {
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#work-section {
+    padding: 60px 0;
+}
+
+#work-section p {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 57, 70)
+}
+
+.work-heading h2 {
+    color: #3A468C;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 70px;
+}
+
+.upper-line {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.upper-line img {
+    width: 100%;
+}
+
+.lower-line {
+    text-align: center;
+}
+
+.lower-line img {
+    width: 100%;
+}
+
+#contactus {
+    padding: 60px 0;
+}
+
+#contactus h1 {
+    font-size: 40px;
+    color: rgb(49, 69, 132);
+    font-weight: normal;
+}
+
+#contactus h2 {
+    font-size: 15px;
+    color: rgb(255, 57, 70);
+}
+
+#contactus input {
+    width: 100%;
+    margin: 10px 0;
+    outline: 0;
+    padding: 10px;
+}
+
+#contactus textarea {
+    width: 100%;
+    margin: 20px 0;
+    outline: 0;
+    padding: 10px;
+    box-shadow: 10px 5px 30px #F1F1F1;
+}
+
+#contactus button {
+    padding: 10px 20px;
+    background: #FD3748;
+    font-size: 16px;
+    color: #fff;
+    outline: 0;
+    border: none;
+}
+
+#contactus .button {
+    text-align: center;
+}
+
+#footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#footer ul li a i {
+    font-size: 30px;
+}
+
+#footer ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer ul li a:hover {
+    text-decoration: none;
+    color: #FD3748;
+}
+
+#footer {
+    line-height: 40px;
+    color: #fff;
+    background: #2C4480;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#footer h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#footer h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FD3748;
+}
+
+#footer p {
+    font-size: 12px;
+}
+
+@media (max-width:1200px) {
+    .contact {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .img-section img {
+        width: 36vw;
+        height: 55vh;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+    }
+    .topnav #myLinks {
+        display: flex;
+        flex-direction: row;
+    }
+    .topnav a {
+        color: rgb(49, 69, 132);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "WorkSans";
+        font-weight: bold;
+        display: block;
+    }
+    .topnav a.icon {
+        display: none;
+    }
+    #contactus h2 {
+        font-size: 20px;
+    }
+    #contactus h1 {
+        font-size: 50px;
+    }
+    .work-heading h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-section img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 320px) {
+    .img-section img {
+        width: 300px;
+        height: 300px;
+    }
+}
