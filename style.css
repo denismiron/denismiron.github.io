@@ -47,7 +47,7 @@ ul li {
     padding: 20px 30px;
     font-size: 18px;
     font-weight: bold;
-    color: #FD3748;
+    color: rgb(255, 57, 70);
     box-shadow: 10px 5px 30px #F1F1F1;
 }
 
@@ -85,7 +85,7 @@ ul li {
 }
 
 .inner-header button {
-    background: #ff3946;
+    background: rgb(255, 57, 70);
     padding: 10px 20px;
     border: 0;
     border-radius: 20px;
@@ -166,7 +166,7 @@ ul li {
 
 #contactus button {
     padding: 10px 20px;
-    background: #FD3748;
+    background: rgb(255, 57, 70);
     font-size: 16px;
     color: #fff;
     outline: 0;
@@ -200,7 +200,7 @@ ul li {
 #footer {
     line-height: 40px;
     color: #fff;
-    background: #2C4480;
+    background: rgb(49, 69, 132);
     padding: 60px 0;
     text-align: center;
 }
