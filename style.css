@@ -229,7 +229,7 @@ ul li {
 @media (min-width:768px) {
     .img-section img {
         width: 36vw;
-        height: 55vh;
+        height: 59vh;
     }
     .navbar {
         display: flex;
