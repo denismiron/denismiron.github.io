@@ -9,6 +9,8 @@ html {
 
 ul li {
     padding: 0 15px;
+    list-style: none;
+    display: inline-block;
 }
 
 .topnav {
@@ -110,16 +112,26 @@ ul li {
     color: rgb(255, 57, 70)
 }
 
+#work-section a {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 57, 70)
+}
+
 .work-heading h2 {
     color: #3A468C;
     font-size: 35px;
     font-weight: normal;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 .upper-line {
     margin-bottom: 30px;
     text-align: center;
+}
+
+.upper-line div {
+    margin-bottom: 2vh;
 }
 
 .upper-line img {
@@ -138,7 +150,7 @@ ul li {
     padding: 60px 0;
 }
 
-#contactus h1 {
+#contactus #Getintouch {
     font-size: 40px;
     color: rgb(49, 69, 132);
     font-weight: normal;
